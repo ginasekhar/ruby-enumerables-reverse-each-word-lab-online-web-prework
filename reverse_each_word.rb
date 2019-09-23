@@ -6,6 +6,7 @@ def reverse_each_word(input_string)
     reverse_array[i] = each_word.reverse
     i = i+1
   end
+  reverse_array
   reverse_string = reverse_array.to_str
-  print reverse_string
+  reverse_string
 end
